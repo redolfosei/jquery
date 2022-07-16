@@ -1,6 +1,5 @@
 
 //Animations with jquery 
-
 $("h4").on("click",function(){
     $("h4").slideUp().slideDown().animate({opacity:0.5});
 });
@@ -22,7 +21,7 @@ $(document).keypress(function(){
 });
 
 
-/*
+
 //Removing and adding Elements with jQeury 
 $("h1").before("<button>New</button>"); 
 
@@ -33,12 +32,11 @@ $("h1").prepend("<button>Prepend</button>");
 $("h1").append("<h3>Append</h3>");
 
 $("button").remove();
-*/
 
 
-/*
+
+
 //Adding event listeners jq
-
 $("h1").on("mouseover", function(){
     $("h1").css("color","blue");
 });
@@ -62,10 +60,10 @@ $("h1").click(function(){
 $("button").click(function(){
     $("h1").css("color","yellow");
 })
-*/
 
 
-/*
+
+
 //manipulating attributes 'attr'
 //set the value of the attr.
 $("a").attr("href","https://www.yahoo.com"); //changes the href link from google to yahoo;
@@ -73,10 +71,10 @@ $("img").attr("src","dice5.png"); //this sets the dice img from dice6 to dice5;
 
 //getting the value of the attr
 console.log($("img").attr("src"));
-*/
 
 
-/*
+
+
 //Changing text innerHTML
 $("h1").text("Hey");
 $("button").text("Press ME");
@@ -99,5 +97,3 @@ $("button") //jq to select all buttons
 
 document.querySelector("h1"); //js 
 $("h1") //jq 
-
-*/
