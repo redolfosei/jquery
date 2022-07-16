@@ -1,0 +1,10 @@
+.big-title {
+    font-size: 10rem;
+    color:aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-set {
+    text-align: center;
+    margin: auto;
+}
